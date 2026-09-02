@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Shahzeb — Odoo Developer</title>
+<meta name="description" content="Odoo developer in Lahore building custom modules and third-party integrations across Odoo 14–19 — payment gateways, couriers, WhatsApp Cloud API, trade finance and eCommerce.">
+<meta name="author" content="Muhammad Shahzeb">
+<meta property="og:title" content="Muhammad Shahzeb — Odoo Developer">
+<meta property="og:description" content="Custom Odoo modules and third-party integrations across Odoo 14–19.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400;12..96,75..100,700;12..96,75..100,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="shell topbar">
+  <span class="topbar__mark">M.&nbsp;SHAHZEB <b>/</b> ODOO</span>
+  <button class="themetoggle" type="button" id="theme" aria-label="Switch colour theme">theme</button>
+</header>
+
+<main>
+
+  <!-- ============ hero ============ -->
+  <section class="shell hero">
+    <div>
+      <p class="hero__eyebrow rise">Lahore, Pakistan</p>
+      <p class="hero__name rise">Muhammad Shahzeb</p>
+      <h1 class="rise">I make Odoo talk to <em>everything else.</em></h1>
+      <p class="hero__lead rise">
+        Nearly two years of custom module work across Odoo 14&ndash;19, mostly on the seams:
+        payment gateways, couriers, WhatsApp, S3, Slack &mdash; built on Odoo&rsquo;s own
+        provider frameworks rather than bolted on beside them. Plus the deep domain
+        builds, like an end-to-end letters-of-credit system for a commodities trader.
+      </p>
+      <ul class="links rise">
+        <li><a href="mailto:shahzebvaxeer5616@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          email</a></li>
+        <li><a href="https://github.com/itxshahzeb" rel="me noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-1.98c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12A11.5 11.5 0 0 0 12 .5z"/></svg>
+          github</a></li>
+        <li><a href="https://www.linkedin.com/in/muhammad-shahzeb-b0a28533b" rel="me noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 2.5 6a2.5 2.5 0 0 1 2.48-2.5zM.5 8.2h4.96V23H.5zM9 8.2h4.75v2.02h.07c.66-1.2 2.28-2.46 4.7-2.46 3.5 0 4.98 2.2 4.98 5.9V23h-4.96v-8.03c0-1.92-.7-3.23-2.42-3.23-1.32 0-2.1.88-2.45 1.73-.13.3-.16.72-.16 1.14V23H9z"/></svg>
+          linkedin</a></li>
+      </ul>
+    </div>
+
+    <div class="manifest rise" aria-label="Module manifest">
+      <span class="manifest__file">__manifest__.py</span>
+      <ul>
+        <li><span class="p">{</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'name'</span><span class="p">:</span> <span class="s">"Muhammad Shahzeb"</span><span class="p">,</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'summary'</span><span class="p">:</span> <span class="s">"Odoo developer"</span><span class="p">,</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'category'</span><span class="p">:</span> <span class="s">"Integrations"</span><span class="p">,</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'author'</span><span class="p">:</span> <span class="s">"MountSol, Lahore"</span><span class="p">,</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'version'</span><span class="p">:</span> <span class="s">"19.0.2.0.0"</span><span class="p">,</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'depends'</span><span class="p">:</span> <span class="p">[</span><span class="s">'python'</span><span class="p">,</span> <span class="s">'postgresql'</span><span class="p">,</span></li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">'owl'</span><span class="p">,</span> <span class="s">'qweb'</span><span class="p">,</span> <span class="s">'rest'</span><span class="p">],</span></li>
+        <li>&nbsp;&nbsp;<span class="k">'installable'</span><span class="p">:</span> <span class="b">True</span><span class="p">,</span></li>
+        <li><span class="p">}</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="shell">
+    <ul class="facts">
+      <li>building Odoo since <b>Dec 2024</b></li>
+      <li><b>14&ndash;19</b> versions shipped</li>
+      <li><b>10</b> production projects</li>
+      <li><b>15+</b> XLSX &amp; PDF reports</li>
+    </ul>
+  </section>
+
+  <!-- ============ summary ============ -->
+  <section class="shell record">
+    <p class="record__key">summary</p>
+    <div class="record__val">
+      <h2>Integrations built the way Odoo expects them.</h2>
+      <p class="dim">
+        A courier that registers as a real <code>delivery.carrier</code> gets rate quoting,
+        booking, tracking and cancellation for free, and keeps working when the client
+        upgrades. A gateway on <code>payment.provider</code> inherits the whole payment
+        lifecycle. That is the difference between an integration you maintain once and
+        one you rewrite every version &mdash; and it is most of what I do.
+      </p>
+      <p class="dim">
+        The rest is domain depth: trade finance, distribution and eCommerce, where the
+        hard part is not the API but the paperwork the business is legally held to.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ experience ============ -->
+  <section class="shell record">
+    <p class="record__key">experience</p>
+    <div class="record__val">
+      <div class="job__head">
+        <div>
+          <h3>Odoo Developer</h3>
+          <p class="job__where"><b>MountSol</b> &mdash; Lahore</p>
+        </div>
+        <p class="job__when">Dec 2024 &rarr; present</p>
+      </div>
+      <ul class="did">
+        <li><b>Letters of credit, end to end.</b> Designed and delivered a full LC and trade-finance
+          system for a commodities trading client, integrated with Sales, Purchase, Stock, MRP
+          and Accounting.</li>
+        <li><b>Reporting under bank constraints.</b> An LC analytics dashboard plus 15+ XLSX and PDF
+          reports, including banking document suites as pixel-constrained QWeb PDFs that had to
+          match the banks&rsquo; own layout specifications.</li>
+        <li><b>Payments on the native framework.</b> Integrated the Safepay gateway on Odoo&rsquo;s
+          <code>payment.provider</code> &mdash; sessions, status, refunds, and HMAC-SHA256 webhook
+          verification.</li>
+        <li><b>One carrier integration, four versions.</b> Registered couriers as native Odoo delivery
+          carriers covering rate, booking, tracking and cancellation, maintained across Odoo 16
+          through 19.</li>
+        <li><b>Barcode-driven asset tracking.</b> Built an asset system on stock lots with compliance
+          reporting and an OWL dashboard wired into Odoo&rsquo;s barcode scanner.</li>
+        <li><b>Storefront and portal internals.</b> Extended Website Sale and Portal &mdash; cart and
+          checkout controller overrides, JSON endpoints for live cart updates, and a cost-plus
+          procurement flow generating one purchase order per sale.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ projects ============ -->
+  <section class="shell record">
+    <p class="record__key">projects</p>
+    <div class="record__val">
+      <div class="projects">
+
+        <article class="proj">
+          <div class="proj__head">
+            <h3>Letters of Credit &amp; Trade Finance</h3>
+            <span class="proj__client">PSAE Multi Trade Group</span>
+            <span class="ver">Odoo 18</span>
+          </div>
+          <p>
+            <code>mtg_lc</code> handles import and export letters of credit end to end, wired into
+            Sales, Purchase, Stock, MRP, Accounting, Documents and Calendar. <code>mtg_dashboard</code>
+            adds bank-wise and LC-wise KPIs and charts. <code>mtg_lc_reports</code> is a bundle of 15+
+            pre-formatted reports &mdash; shipment tracking, receivables aging, PDC lists, cheque
+            discounting, export LC outstanding, bill-wise outstanding, sales vs purchase. Alongside it,
+            a CRM&nbsp;&rarr;&nbsp;R&amp;D&nbsp;&rarr;&nbsp;QC&nbsp;&rarr;&nbsp;approval workflow for
+            masterbatch requests, POS multi-UoM extensions, and location-wise stock reporting.
+          </p>
+          <ul class="prims"><li>QWeb PDF</li><li>XLSX</li><li>Accounting</li><li>MRP</li><li>custom A4 formats</li></ul>
+        </article>
+
+        <article class="proj">
+          <div class="proj__head">
+            <h3>WhatsApp Cloud API Integration</h3>
+            <span class="proj__client">MountSol product</span>
+            <span class="ver">Odoo 19</span>
+          </div>
+          <p>
+            <code>ms_whatsapp_integration</code> &mdash; a Community-edition integration with Meta&rsquo;s
+            official WhatsApp Cloud API, rebuilt from the ground up and extended past what Enterprise
+            offers. Inbound messages arrive as Discuss channels, so agents reply from the ordinary Odoo
+            inbox. Template management creates, syncs and submits templates to Meta and tracks
+            Approved / Pending / Rejected live over webhook. An interactive chatbot with a visual
+            script builder routes conversations to CRM leads, Helpdesk tickets or a human operator,
+            and a Send WhatsApp action works from any record with template variable mapping.
+          </p>
+          <ul class="prims"><li>Meta Graph API</li><li>HMAC webhooks</li><li>Discuss</li><li>multi-company</li><li>permanent tokens</li></ul>
+        </article>
+
+        <article class="proj">
+          <div class="proj__head">
+            <h3>Container Logistics eCommerce</h3>
+            <span class="proj__client">Farhiell</span>
+            <span class="ver">Odoo 17</span>
+          </div>
+          <p>
+            Shipping containers selected dynamically from what is actually in the cart. A custom
+            container model carries capacity, cost, weight and volume constraints; UoM-aware weight
+            and volume roll up at both order and line level; the cart-update JSON endpoint was
+            extended to persist the selection and recalculate totals with no page reload; and QWeb
+            portal templates surface suitability indicators so the customer sees a recommendation
+            or a warning before confirming.
+          </p>
+          <ul class="prims"><li>Website Sale</li><li>JSON controllers</li><li>UoM conversion</li><li>procurement rules</li></ul>
+        </article>
+
+        <article class="proj">
+          <div class="proj__head">
+            <h3>B2B eCommerce Platform</h3>
+            <span class="proj__client">GL Distribution</span>
+            <span class="ver">Odoo 18</span>
+          </div>
+          <p>
+            A one-page checkout collapsing cart review, address, delivery carrier and payment onto a
+            single screen. A promotional popup captures storefront leads straight into CRM through a
+            secured controller endpoint. Per-line pricelists let a single quotation price each line
+            differently across Sales, Purchase and Invoicing. Rounded out with a Google Merchant
+            Center product feed, eCommerce&nbsp;&harr;&nbsp;internal category sync, and a customised
+            Droggol Theme Prime storefront.
+          </p>
+          <ul class="prims"><li>controllers</li><li>SCSS theming</li><li>CRM</li><li>QWeb</li><li>product data feed</li></ul>
+        </article>
+
+        <article class="proj">
+          <div class="proj__head">
+            <h3>Amazon S3 Connector &amp; Branded Reporting</h3>
+            <span class="proj__client">DRWE</span>
+            <span class="ver">Odoo 18</span>
+          </div>
+          <p>
+            Files move both ways between Odoo and Amazon S3 over <code>boto3</code>, with an OWL
+            dashboard, a scheduled cron sync and credentials configured through
+            <code>res.config.settings</code>. Paired with a branded QWeb PDF suite &mdash; quotation,
+            sale order, invoice, event registration certificate &mdash; on a custom A4 paper format
+            with a boxed external layout.
+          </p>
+          <ul class="prims"><li>boto3</li><li>OWL</li><li>ir.cron</li><li>QWeb PDF</li></ul>
+        </article>
+
+        <article class="proj">
+          <div class="proj__head">
+            <h3>Safepay Payment Gateway</h3>
+            <span class="proj__client">MountSol</span>
+            <span class="ver">Odoo 17</span>
+          </div>
+          <p>
+            Hosted checkout built on Odoo&rsquo;s native <code>payment.provider</code> framework:
+            session creation, the full payment lifecycle through to refunds, and webhook
+            authenticity verified by HMAC-SHA256 rather than trusted on arrival.
+          </p>
+          <ul class="prims"><li>payment.provider</li><li>REST</li><li>HMAC-SHA256</li><li>refunds</li></ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ also shipped ============ -->
+  <section class="shell record">
+    <p class="record__key">also_shipped</p>
+    <div class="record__val">
+      <ul class="more">
+        <li>
+          <b>Courier carrier integrations</b> <span class="ver">Odoo 16&ndash;19</span>
+          <span>Couriers registered as native <code>delivery.carrier</code> providers &mdash; rate
+            quoting, booking, tracking, cancellation &mdash; one integration maintained across four
+            consecutive Odoo versions.</span>
+        </li>
+        <li>
+          <b>Asset tracking &amp; barcode dashboard</b> <span class="ver">Odoo 17</span>
+          <span>An asset register on stock lots with compliance reporting, XLSX export and an OWL
+            dashboard driven by Odoo&rsquo;s barcode scanner. Built for TronicaHub.</span>
+        </li>
+        <li>
+          <b>Slack &harr; Odoo Project sync</b> <span class="ver">Odoo 19</span>
+          <span>Creating a project in Odoo auto-creates its Slack channel via the Slack Web API, and
+            assigning a task adds that assignee to the channel &mdash; membership stays in step with
+            no manual invites.</span>
+        </li>
+        <li>
+          <b>Monamosa management customisation</b> <span class="ver">Odoo 18</span>
+          <span>XML-based data integration for inventory updates, plus custom portal features for HR
+            leave management &mdash; portal controllers, web forms and approval workflows.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ skills ============ -->
+  <section class="shell record">
+    <p class="record__key">depends</p>
+    <div class="record__val">
+      <div class="stack">
+        <div class="stack__group">
+          <p class="stack__label">Languages</p>
+          <ul class="chips">
+            <li class="hot">Python</li><li class="hot">XML</li><li>JavaScript</li>
+            <li>HTML</li><li>CSS / SCSS</li><li>SQL</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Odoo framework</p>
+          <ul class="chips">
+            <li>ORM</li><li>model inheritance</li><li>computed &amp; stored fields</li>
+            <li>constraints</li><li>wizards</li><li>scheduled actions</li>
+            <li>record rules &amp; ACLs</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Odoo web</p>
+          <ul class="chips">
+            <li>Website Sale</li><li>Portal</li><li>HTTP &amp; JSON controllers</li>
+            <li class="hot">QWeb &amp; PDF reports</li><li class="hot">OWL components</li>
+            <li>XLSX generation</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Integrations</p>
+          <ul class="chips">
+            <li class="hot">REST APIs</li><li>webhooks</li><li>HMAC verification</li>
+            <li>OAuth 2.0</li><li>JSON-RPC</li><li>payment.provider</li><li>delivery.carrier</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Business modules</p>
+          <ul class="chips">
+            <li>Sales</li><li>Purchase</li><li>Inventory</li><li>Accounting</li>
+            <li>MRP</li><li>CRM</li><li>HR</li><li>Point of Sale</li><li>Website</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Tooling</p>
+          <ul class="chips">
+            <li>PostgreSQL</li><li>Git</li><li>Linux</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ education ============ -->
+  <section class="shell record">
+    <p class="record__key">education</p>
+    <div class="record__val">
+      <div class="edu__head">
+        <div>
+          <h3>BS Computer Science</h3>
+          <p class="job__where">University of Science and Technology, Bannu</p>
+        </div>
+        <span class="grade">CGPA 3.09</span>
+      </div>
+      <p class="dim" style="margin-top:1rem">
+        2020&ndash;2024. Coursework and practice centred on Odoo ERP development &mdash; Python,
+        the ORM, QWeb reports, XML views, PostgreSQL and REST integration &mdash; with custom
+        modules built across Sales, Inventory, CRM, HR and Accounting.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="shell foot">
+  <div class="foot__cta">
+    <h2>Got an Odoo problem that needs an integration?</h2>
+    <a class="mail" href="mailto:shahzebvaxeer5616@gmail.com">shahzebvaxeer5616@gmail.com</a>
+  </div>
+  <div class="foot__meta">
+    <div>Lahore, Pakistan</div>
+    <div><a href="https://github.com/itxshahzeb" rel="me noopener">github.com/itxshahzeb</a></div>
+    <div><a href="https://www.linkedin.com/in/muhammad-shahzeb-b0a28533b" rel="me noopener">linkedin</a></div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme');
+  var KEY = 'shz-theme';
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+  try {
+    var saved = localStorage.getItem(KEY);
+    if (saved === 'dark' || saved === 'light') root.setAttribute('data-theme', saved);
+  } catch (e) {}
+
+  function effective() {
+    var explicit = root.getAttribute('data-theme');
+    if (explicit === 'dark' || explicit === 'light') return explicit;
+    return mq.matches ? 'dark' : 'light';
+  }
+
+  function label() {
+    btn.textContent = effective() === 'dark' ? 'light mode' : 'dark mode';
+  }
+
+  btn.addEventListener('click', function () {
+    var next = effective() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem(KEY, next); } catch (e) {}
+    label();
+  });
+
+  mq.addEventListener('change', label);
+  label();
+})();
+</script>
+
+</body>
+</html>
